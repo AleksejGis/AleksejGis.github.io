@@ -59,5 +59,11 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    transition: background 0.5s, border-color 0.5s;
 
+}
+button:hover{
+     background: linear-gradient(45deg,#cac8c8, #7a7a7a );
+     border-color: transparent;
+     
 }
